@@ -13,3 +13,41 @@ ul, li, a{
     text-decoration: none;
 }
 
+body{
+    font-family:"Poppins" ;
+}
+
+/* ***************************** */
+/* Header Style Start */
+header{
+    background: #EEEDDE;
+    padding-top: 57px;
+    padding-bottom: 120px;
+}
+header .navbar-spaces{
+    display: flex;
+    justify-content: space-between;
+}
+header li{margin-left: 6rem;
+}
+header .search-banner{
+display: flex;
+} 
+.search-input{
+    padding-left: 20px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-right: 100px;
+    border-radius: 15px;
+    border: none;
+    margin-right: 15px;
+}
+.banner .search-input:focus{
+    outline: none;
+}
+.banner button{
+    border: none;
+    padding:23px 41px;
+    border-radius: 15px;
+background: #FFF;
+}
