@@ -108,3 +108,79 @@ line-height: normal;
 border:none;
 background: none;
 }
+
+/* Resident Section */
+.resident{
+    background: #EEEDDE;
+    padding-top: 68px;
+    padding-bottom: 168px;
+}
+
+.house-img{
+    position: relative;
+    display: flex;
+}
+.stair-images{
+    position: absolute;
+    top: 60px;
+    left: 167px;
+    
+}
+
+.resident .col-lg-12 h6 {
+    color: #FF7527;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;   
+    margin-bottom: 8px;
+}
+.resident .col-lg-12 h3 {
+    color: #203239;
+
+/* h1 */
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 54px */ 
+margin-bottom: 64px;
+}
+.resident .col-lg-6 h2{
+    color: #203239;
+
+/* h1 */
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 54px */
+}
+.resident .col-lg-6 p{
+    color: #203239;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; /* 187.5% */
+    margin-top: 24px;
+    margin-bottom: 48px;
+    text-align: left;
+
+}
+.resident .col-lg-6 button{
+    color: #203239;
+
+/* Text1 Bold */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    border-radius: 10px;
+    border: 1px solid #203239;
+padding: 13px 41px;
+margin-right: 48px;
+background: #EEEDDE;
+}
